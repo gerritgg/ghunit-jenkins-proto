@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BDDC9D3142E921700EB7196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D2142E921700EB7196 /* UIKit.framework */; };
+		1BDDC9D5142E921700EB7196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D4142E921700EB7196 /* Foundation.framework */; };
+		1BDDC9D7142E921700EB7196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D6142E921700EB7196 /* CoreGraphics.framework */; };
+		1BDDC9DD142E921700EB7196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BDDC9DB142E921700EB7196 /* InfoPlist.strings */; };
+		1BDDC9DF142E921700EB7196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDC9DE142E921700EB7196 /* main.m */; };
+		1BDDC9E3142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDC9E2142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.m */; };
+		1BDDC9E6142E921700EB7196 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDDC9E4142E921700EB7196 /* MainWindow.xib */; };
+		1BDDC9E9142E921700EB7196 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDC9E8142E921700EB7196 /* FirstViewController.m */; };
+		1BDDC9EC142E921700EB7196 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDC9EB142E921700EB7196 /* SecondViewController.m */; };
+		1BDDC9EF142E921700EB7196 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDDC9ED142E921700EB7196 /* FirstView.xib */; };
+		1BDDC9F2142E921800EB7196 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDDC9F0142E921800EB7196 /* SecondView.xib */; };
+		1BDDC9FE142FA6AD00EB7196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D2142E921700EB7196 /* UIKit.framework */; };
+		1BDDC9FF142FA6AD00EB7196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D4142E921700EB7196 /* Foundation.framework */; };
+		1BDDCA00142FA6AD00EB7196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDC9D6142E921700EB7196 /* CoreGraphics.framework */; };
+		1BDDCA06142FA6AD00EB7196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BDDCA04142FA6AD00EB7196 /* InfoPlist.strings */; };
+		1BDDCA08142FA6AD00EB7196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDCA07142FA6AD00EB7196 /* main.m */; };
+		1BDDCA20142FA80E00EB7196 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDDCA1F142FA80E00EB7196 /* GHUnitIOS.framework */; };
+		1BDDCA23142FAF7C00EB7196 /* SampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDDCA22142FAF7C00EB7196 /* SampleTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BDDC9CE142E921700EB7196 /* ghunit-jenkins-proto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ghunit-jenkins-proto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDDC9D2142E921700EB7196 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BDDC9D4142E921700EB7196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BDDC9D6142E921700EB7196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BDDC9DA142E921700EB7196 /* ghunit-jenkins-proto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ghunit-jenkins-proto-Info.plist"; sourceTree = "<group>"; };
+		1BDDC9DC142E921700EB7196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BDDC9DE142E921700EB7196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1BDDC9E0142E921700EB7196 /* ghunit-jenkins-proto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ghunit-jenkins-proto-Prefix.pch"; sourceTree = "<group>"; };
+		1BDDC9E1142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ghunit_jenkins_protoAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1BDDC9E2142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ghunit_jenkins_protoAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1BDDC9E5142E921700EB7196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1BDDC9E7142E921700EB7196 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FirstViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1BDDC9E8142E921700EB7196 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FirstViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1BDDC9EA142E921700EB7196 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SecondViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1BDDC9EB142E921700EB7196 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SecondViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1BDDC9EE142E921700EB7196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		1BDDC9F1142E921800EB7196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		1BDDC9FC142FA6AD00EB7196 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDDCA03142FA6AD00EB7196 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		1BDDCA05142FA6AD00EB7196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BDDCA07142FA6AD00EB7196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1BDDCA09142FA6AD00EB7196 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		1BDDCA1F142FA80E00EB7196 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		1BDDCA22142FAF7C00EB7196 /* SampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BDDC9CB142E921700EB7196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDC9D3142E921700EB7196 /* UIKit.framework in Frameworks */,
+				1BDDC9D5142E921700EB7196 /* Foundation.framework in Frameworks */,
+				1BDDC9D7142E921700EB7196 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDDC9F9142FA6AD00EB7196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDC9FE142FA6AD00EB7196 /* UIKit.framework in Frameworks */,
+				1BDDC9FF142FA6AD00EB7196 /* Foundation.framework in Frameworks */,
+				1BDDCA00142FA6AD00EB7196 /* CoreGraphics.framework in Frameworks */,
+				1BDDCA20142FA80E00EB7196 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDDC9C3142E921700EB7196 = {
+			isa = PBXGroup;
+			children = (
+				1BDDC9D8142E921700EB7196 /* ghunit-jenkins-proto */,
+				1BDDCA01142FA6AD00EB7196 /* Tests */,
+				1BDDC9D1142E921700EB7196 /* Frameworks */,
+				1BDDC9CF142E921700EB7196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BDDC9CF142E921700EB7196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDC9CE142E921700EB7196 /* ghunit-jenkins-proto.app */,
+				1BDDC9FC142FA6AD00EB7196 /* Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDDC9D1142E921700EB7196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDCA1F142FA80E00EB7196 /* GHUnitIOS.framework */,
+				1BDDC9D2142E921700EB7196 /* UIKit.framework */,
+				1BDDC9D4142E921700EB7196 /* Foundation.framework */,
+				1BDDC9D6142E921700EB7196 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BDDC9D8142E921700EB7196 /* ghunit-jenkins-proto */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDC9E1142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.h */,
+				1BDDC9E2142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.m */,
+				1BDDC9E4142E921700EB7196 /* MainWindow.xib */,
+				1BDDC9E7142E921700EB7196 /* FirstViewController.h */,
+				1BDDC9E8142E921700EB7196 /* FirstViewController.m */,
+				1BDDC9EA142E921700EB7196 /* SecondViewController.h */,
+				1BDDC9EB142E921700EB7196 /* SecondViewController.m */,
+				1BDDC9ED142E921700EB7196 /* FirstView.xib */,
+				1BDDC9F0142E921800EB7196 /* SecondView.xib */,
+				1BDDC9D9142E921700EB7196 /* Supporting Files */,
+			);
+			path = "ghunit-jenkins-proto";
+			sourceTree = "<group>";
+		};
+		1BDDC9D9142E921700EB7196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDC9DA142E921700EB7196 /* ghunit-jenkins-proto-Info.plist */,
+				1BDDC9DB142E921700EB7196 /* InfoPlist.strings */,
+				1BDDC9DE142E921700EB7196 /* main.m */,
+				1BDDC9E0142E921700EB7196 /* ghunit-jenkins-proto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BDDCA01142FA6AD00EB7196 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDCA02142FA6AD00EB7196 /* Supporting Files */,
+				1BDDCA22142FAF7C00EB7196 /* SampleTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1BDDCA02142FA6AD00EB7196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BDDCA03142FA6AD00EB7196 /* Tests-Info.plist */,
+				1BDDCA04142FA6AD00EB7196 /* InfoPlist.strings */,
+				1BDDCA07142FA6AD00EB7196 /* main.m */,
+				1BDDCA09142FA6AD00EB7196 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BDDC9CD142E921700EB7196 /* ghunit-jenkins-proto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDDC9F5142E921800EB7196 /* Build configuration list for PBXNativeTarget "ghunit-jenkins-proto" */;
+			buildPhases = (
+				1BDDC9CA142E921700EB7196 /* Sources */,
+				1BDDC9CB142E921700EB7196 /* Frameworks */,
+				1BDDC9CC142E921700EB7196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ghunit-jenkins-proto";
+			productName = "ghunit-jenkins-proto";
+			productReference = 1BDDC9CE142E921700EB7196 /* ghunit-jenkins-proto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BDDC9FB142FA6AD00EB7196 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDDCA1C142FA6AE00EB7196 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				1BDDC9F8142FA6AD00EB7196 /* Sources */,
+				1BDDC9F9142FA6AD00EB7196 /* Frameworks */,
+				1BDDC9FA142FA6AD00EB7196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 1BDDC9FC142FA6AD00EB7196 /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BDDC9C5142E921700EB7196 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1BDDC9C8142E921700EB7196 /* Build configuration list for PBXProject "ghunit-jenkins-proto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BDDC9C3142E921700EB7196;
+			productRefGroup = 1BDDC9CF142E921700EB7196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BDDC9CD142E921700EB7196 /* ghunit-jenkins-proto */,
+				1BDDC9FB142FA6AD00EB7196 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BDDC9CC142E921700EB7196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDC9DD142E921700EB7196 /* InfoPlist.strings in Resources */,
+				1BDDC9E6142E921700EB7196 /* MainWindow.xib in Resources */,
+				1BDDC9EF142E921700EB7196 /* FirstView.xib in Resources */,
+				1BDDC9F2142E921800EB7196 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDDC9FA142FA6AD00EB7196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDCA06142FA6AD00EB7196 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BDDC9CA142E921700EB7196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDC9DF142E921700EB7196 /* main.m in Sources */,
+				1BDDC9E3142E921700EB7196 /* ghunit_jenkins_protoAppDelegate.m in Sources */,
+				1BDDC9E9142E921700EB7196 /* FirstViewController.m in Sources */,
+				1BDDC9EC142E921700EB7196 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDDC9F8142FA6AD00EB7196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDCA08142FA6AD00EB7196 /* main.m in Sources */,
+				1BDDCA23142FAF7C00EB7196 /* SampleTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BDDC9DB142E921700EB7196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDDC9DC142E921700EB7196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BDDC9E4142E921700EB7196 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDDC9E5142E921700EB7196 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1BDDC9ED142E921700EB7196 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDDC9EE142E921700EB7196 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		1BDDC9F0142E921800EB7196 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDDC9F1142E921800EB7196 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		1BDDCA04142FA6AD00EB7196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDDCA05142FA6AD00EB7196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BDDC9F3142E921800EB7196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BDDC9F4142E921800EB7196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BDDC9F6142E921800EB7196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ghunit-jenkins-proto/ghunit-jenkins-proto-Prefix.pch";
+				INFOPLIST_FILE = "ghunit-jenkins-proto/ghunit-jenkins-proto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BDDC9F7142E921800EB7196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ghunit-jenkins-proto/ghunit-jenkins-proto-Prefix.pch";
+				INFOPLIST_FILE = "ghunit-jenkins-proto/ghunit-jenkins-proto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BDDCA1D142FA6AE00EB7196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BDDCA1E142FA6AE00EB7196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BDDC9C8142E921700EB7196 /* Build configuration list for PBXProject "ghunit-jenkins-proto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDDC9F3142E921800EB7196 /* Debug */,
+				1BDDC9F4142E921800EB7196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDDC9F5142E921800EB7196 /* Build configuration list for PBXNativeTarget "ghunit-jenkins-proto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDDC9F6142E921800EB7196 /* Debug */,
+				1BDDC9F7142E921800EB7196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BDDCA1C142FA6AE00EB7196 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDDCA1D142FA6AE00EB7196 /* Debug */,
+				1BDDCA1E142FA6AE00EB7196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BDDC9C5142E921700EB7196 /* Project object */;
+}
